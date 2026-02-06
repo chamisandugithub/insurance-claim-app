@@ -111,4 +111,4 @@ if submitted:
 
     prediction = model.predict(input_df)[0]
 
-    st.success(f"**Estimated Insurance Claim Amount:** ${prediction:,.2f}")
+    st.success(f" **Estimated Insurance Claim Amount:** ${prediction:,.2f}")
